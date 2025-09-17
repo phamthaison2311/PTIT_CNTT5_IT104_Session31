@@ -1,0 +1,36 @@
+{
+  "article": [
+    {
+      "id": "1674",
+      "title": "State trong ReactJS",
+      "image": "https://statics.cdn.200lab.io/2024/10/state-management-trong-react.jpg",
+      "date_written": "04/03/2024",
+      "content": "Đã xuất bản",
+      "status": "published"
+    },
+    {
+      "id": "1689",
+      "title": "Tổng quan về ReactJS",
+      "image": "https://statics.cdn.200lab.io/2024/10/state-management-trong-react.jpg",
+      "date_written": "04/03/2024",
+      "content": "Đã xuất bản",
+      "status": "published"
+    },
+    {
+      "id": "1980",
+      "title": "Tổng quan về Router",
+      "image": "https://statics.cdn.200lab.io/2024/10/state-management-trong-react.jpg",
+      "date_written": "04/03/2024",
+      "content": "Đã xuất bản",
+      "status": "published"
+    },
+    {
+      "id": "8ad0",
+      "title": "Tổng quan về Marketing",
+      "image": "https://skillking.fpt.edu.vn/wp-content/uploads/2022/09/marketing-la-gi-1.jpg",
+      "content": "<p>Học marketing trên nền tảng số</p>",
+      "status": "published",
+      "date_written": "18/9/2025"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+form.filter-article {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+form.filter-article input[type="text"] {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  outline: none;
+  transition: all 0.2s;
+}
+
+form.filter-article input[type="text"]:focus {
+  border-color: #1677ff;
+  box-shadow: 0 0 0 2px rgba(22, 119, 255, 0.2);
+}
+
+form.filter-article select {
+  padding: 8px 12px;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  background-color: #fff;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.2s;
+}
+
+form.filter-article select:focus {
+  border-color: #1677ff;
+  box-shadow: 0 0 0 2px rgba(22, 119, 255, 0.2);
+}
+
+button.add-article {
+  padding: 8px 16px;
+  background-color: #1677ff; /* xanh chính của Ant Design */
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+   margin-top: 20px;
+}
+
+button.add-article:hover {
+  background-color: #4096ff; /* xanh nhạt hơn khi hover */
+}
+
+button.add-article:active {
+  background-color: #0958d9; /* xanh đậm khi click */
+}
+
+button.add-article:disabled {
+  background-color: #d9d9d9;
+  cursor: not-allowed;
+}
