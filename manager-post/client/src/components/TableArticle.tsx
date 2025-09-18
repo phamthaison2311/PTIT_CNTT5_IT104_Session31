@@ -63,7 +63,6 @@ export default function TableArticle() {
       return;
     }
 
-    // Optimistic update
     const prev = article;
     const next = article.map((x) =>
       x.id === record.id ? { ...x, status: "published" } : x
